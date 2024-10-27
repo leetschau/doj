@@ -1,1 +1,2 @@
-{:paths ["src"]}
+{:min-bb-version "1.12.0"
+  :paths ["src" "test"]}
