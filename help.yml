@@ -1,0 +1,21 @@
+---
+global: |
+  Usage of donno: dn <command> [arguments ...]
+
+  Available command:
+  conf: get/set configurations;
+  a: add a new note;
+  e: edit notes;
+  l: list notes;
+  s: search notes;
+
+  Run `dn help <command> for detailed specs.
+l: |
+  List notes: dn l <note-number> (default: 5)
+e: |
+  Edit a note: dn e <note-index> (default: 1)
+s: |
+  Search notes with criteria: dn s <search-term1> [<search-term2> ...]
+  Search term:
+    * single word, e.g.: python
+    * <stype>:<sword>:<sflag>, e.g.: ti:python:wi

@@ -1,4 +1,4 @@
-# Donjure
+# Doj
 
 A [Donno](https://github.com/leetschau/donno) implementation
 in Clojure with [babashka](https://github.com/babashka/babashka).
